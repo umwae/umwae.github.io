@@ -1,1 +1,154 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram App Mockup</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .app-container {
+            width: 360px;
+            background-color: #1a1a1a;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            background: linear-gradient(180deg, #006bff, #004bbf);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+
+        .header img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .header .title {
+            display: flex;
+            align-items: center;
+        }
+
+        .header .title h1 {
+            font-size: 20px;
+            margin: 0 0 0 10px;
+        }
+
+        .header button {
+            background-color: white;
+            border: none;
+            color: #004bbf;
+            padding: 5px 10px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+        }
+
+        .main-content img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            margin: 20px 0 0 0;
+            color: #00ccff;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+            background-color: #1a1a1a;
+            border-top: 1px solid #333;
+        }
+
+        .footer div {
+            text-align: center;
+        }
+
+        .footer img {
+            width: 25px;
+            height: 25px;
+            margin-bottom: 5px;
+        }
+
+        .support-button {
+            margin: 15px 0;
+            display: block;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <div class="header">
+        <div class="title">
+            <img src="dog-icon.png" alt="Dog Icon">
+            <h1>Dogs</h1>
+        </div>
+        <button>Whaaat</button>
+    </div>
+    
+    <div class="main-content">
+        <img src="dog-icon.png" alt="Dog Logo">
+        <h2>29,084</h2>
+        <p>$DOGS</p>
+    </div>
+
+    <a href="#" class="support-button">Support Pavel</a>
+
+    <div class="footer">
+        <div>
+            <img src="home-icon.png" alt="Home">
+            <a href="#">Home</a>
+        </div>
+        <div>
+            <img src="leaderboard-icon.png" alt="Leaderboard">
+            <a href="#">Leaderboard</a>
+        </div>
+        <div>
+            <img src="friends-icon.png" alt="Friends">
+            <a href="#">Friends</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
